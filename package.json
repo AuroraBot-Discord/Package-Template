@@ -1,0 +1,32 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run tsc",
+    "tsc": "npx tsc"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+  ],
+  "author": "name <email> (https://github.com/AuroraBot-Discord)",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:AuroraBot-Discord/Package-Template.git"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.4.3",
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.1"
+  }
+}
